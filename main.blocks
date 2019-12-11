@@ -1,0 +1,204 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable id="Irg5|;5_*+wi0^?],]ii">map</variable><variable id="~F_$0E)G~mpxkF9lM~/y">OldMap</variable><variable id="g=m!GLzWP4P+9i::avwi">textures</variable><variable id="gA}{_+H]ZqTJZd@~rbOz">t0</variable><variable id="qY(PoDU^C[2_]WTrmof}">i</variable><variable id="RoT@y~K$EdN5TNcn-vZ~">fpx</variable><variable id="})pvp1AEr[,h1,WH.+Z8">fpx_scale</variable><variable id="98,$Ek.ntnhEg9=kp%nK">fov</variable></variables><block type="pxt-on-start" x="0" y="0"><statement name="HANDLER"><block type="variables_set"><field name="VAR" id="Irg5|;5_*+wi0^?],]ii">map</field><value name="VALUE"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="screen_image_picker"><field name="img">img`
+6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 
+6 . . . . . . . . 6 2 2 2 6 . . . . . . . . 6 6 . . . . . . . 6 
+6 . 5 5 . . . . . 6 2 2 2 6 . . . . . . . . . . . . . 5 5 . . 6 
+6 . 5 5 . . . . . 6 2 2 2 6 . . 6 6 6 6 . . . . . . . 5 5 . . 6 
+6 . . . . . . . . 6 2 2 2 6 . . 6 6 2 6 6 6 6 6 . . . . . . . 6 
+6 . . . . . . . . 6 2 2 2 6 . . 6 2 2 2 2 2 2 6 . . . . . . . 6 
+6 6 . . 6 6 6 6 6 6 2 2 2 6 . . 6 2 2 2 2 2 2 6 6 6 6 6 6 6 6 6 
+2 6 . . 6 2 2 2 2 2 6 6 6 6 . . 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 2 
+2 6 . . 6 6 6 6 2 2 6 . . . . . . . . . . . . . . . . . . . 6 2 
+2 6 . . . . . 6 2 2 6 . . . . . . . . . . . . . . . . . . . 6 2 
+6 6 . . . . . 6 6 6 6 . . 6 . . 6 6 6 6 6 6 6 6 6 6 6 6 . . 6 2 
+6 . . . . . . . . . . . . 6 . . 6 . . . . . . . . . . . . . 6 2 
+6 . . . . . . . . . . . . 6 . . 6 . . . . . . . . . . . . . 6 2 
+6 6 6 6 6 . . . 6 6 6 6 6 6 . . 6 6 6 6 6 6 . . 6 6 6 6 6 6 6 6 
+6 6 6 6 6 . . . 6 2 2 6 . . . . . . 6 2 2 6 . . 6 . . . . . . 6 
+6 . . 6 6 . . . 6 2 2 6 . . 2 2 . . 6 6 6 6 . . 6 . . . . . . 6 
+6 . . 6 6 . . . 6 2 2 6 . . 2 2 . . 6 . . . . . 6 . . 6 6 6 6 6 
+6 . . 6 6 . . . 6 2 2 6 . . . . . . 6 . . . . . 6 . . 6 . . 6 2 
+6 . . 6 6 . . . 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 . . 6 . . 6 2 
+6 . . . . . . . . . . . . . 6 2 2 2 2 2 2 2 6 . . . . 6 . . 6 2 
+6 . . . . . . . . . . . . . 6 2 2 2 2 2 2 2 6 . . . . 6 . . 6 2 
+6 6 6 6 6 6 6 6 6 6 6 . . . 6 2 2 2 2 2 2 6 6 . . 6 6 6 . . 6 2 
+6 . . . . . . . . . . . . . 6 6 2 2 2 2 2 6 . . . . . . . . 6 2 
+6 . . . . . . . . . . . . . . 6 6 6 6 6 6 6 . . . . . . . . 6 2 
+6 6 6 6 6 6 6 6 6 . . 6 . . . 6 6 . . . . . . . 6 6 6 6 . . 6 6 
+6 . . . . . . . 6 . . 6 6 . . 6 6 . . . . . . . 6 . . . . . . 6 
+6 . . . . . . . 6 6 6 6 6 . . 6 6 . . 6 6 6 6 6 6 . . . . . . 6 
+6 . . . . . . . . . . . . . . 6 6 . . . . . . . 6 . . . . . . 6 
+6 . 5 5 . . . . . . . . . . . 6 6 . . . . . . . 6 . . 5 5 . . 6 
+6 . 5 5 . . . . 6 6 6 6 6 . . . . . . 6 6 6 6 . 6 . . 5 5 . . 6 
+6 . . . . . . . 6 2 2 2 6 . . . . . . 6 2 2 2 2 6 . . . . . . 6 
+6 6 6 6 6 6 6 6 6 2 2 2 6 6 6 6 6 6 6 6 2 2 2 2 6 6 6 6 6 6 6 6 
+`</field></block></value><next><block type="variables_set"><field name="VAR" id="~F_$0E)G~mpxkF9lM~/y">OldMap</field><value name="VALUE"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="screen_image_picker"><field name="img">img`
+6 6 6 6 6 6 6 6 6 6 6 6 6 5 6 5 6 6 6 3 6 6 6 3 6 6 6 6 6 3 6 6 
+6 . . . . . . . 6 . . . . . . . . . . . . . . . . . . . . . . 6 
+6 . . . . . . . 6 . . . . . . . . . . . . . . . . . . . . . . 6 
+6 . . . 7 . . . 5 . . . . . . . . . . . . . . . . . . . . . . 6 
+6 . . . 7 . . . 6 . . 7 7 7 7 7 7 7 7 7 7 . . . . 6 6 6 6 6 6 6 
+6 . . . 1 . . . 6 . . 7 7 7 7 7 7 7 7 7 7 . . . . . . . . . . 6 
+6 . . . 2 . . . 6 . . 6 6 6 6 6 . . . . . . . 7 . . . . . . . 6 
+6 . . . 7 . . . 6 . . . . . . 6 . . . . . . . 4 . . . . . . . 6 
+6 . . . 1 . . . 6 4 6 6 4 6 6 6 . . . . . . . 7 . . . . . . . 6 
+6 . . . 7 . . . . . . . . . . . . . . . . . . 7 . . . . . . . 6 
+6 6 6 6 6 6 6 6 6 6 6 5 6 6 6 5 6 6 . . 6 6 5 6 6 6 6 5 6 6 6 6 
+6 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 6 
+6 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 6 
+6 . . . . 7 7 7 7 7 7 7 4 7 7 7 7 7 7 7 7 7 7 4 7 7 7 . . . . 6 
+6 . . . . 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 . . . . 6 
+6 . . . . 6 6 6 6 2 6 6 6 6 6 2 6 6 6 6 6 2 6 6 6 6 6 . . . . 6 
+6 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 6 
+6 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 6 
+6 7 7 7 2 7 7 7 7 7 7 1 7 7 7 7 1 7 7 7 2 7 7 7 . . . . . . . 6 
+6 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 6 
+6 . . . . . . . . . . . . 7 7 7 7 7 7 7 7 7 7 7 . . . . . . . 6 
+6 . . . . . . . . . . 7 7 7 . . . . . . . . . 7 7 7 7 7 7 7 7 6 
+6 . . 6 . . . . 7 7 7 7 . . . . . . . . . . . . . . . . . . . 6 
+6 . . 6 . . . . 6 . . . . . 7 7 7 7 7 . . . . 7 7 7 . . . . . 6 
+6 . . 6 . . . . 6 . . . . . 7 . . . 7 7 . . . 7 . 7 7 . . . . 6 
+6 . . 6 . . . . 6 . . . . . 7 7 . . . 7 . . . . 7 . 7 7 . . 7 6 
+6 . . 6 . . . . 6 6 7 . . . . 7 . . . 7 . . . 7 . . . 7 . . 7 6 
+6 . . 6 . . . . . . 7 7 7 . . 7 . . . 7 7 7 7 7 . . . 7 7 7 7 6 
+6 . . 6 . . . . . . . . 7 7 7 7 . . . . . . . . . . . . . . . 6 
+6 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 6 
+6 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 6 
+6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 
+`</field></block></value><next><block type="variables_set"><field name="VAR" id="g=m!GLzWP4P+9i::avwi">textures</field><value name="VALUE"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="lists_create_with" inline="false"><mutation items="14"/><value name="ADD0"><block type="screen_image_picker"><field name="img">img`
+c d c d d d c c 
+d d b d d d d c 
+d b d d d d d b 
+b b b d c c d b 
+d b d b d d c c 
+d d b d b b b c 
+c d c b d d b c 
+c c b b c c c c 
+`</field></block></value><value name="ADD1"><block type="typescript_expression" editable="false"><field name="EXPRESSION">null</field></block></value><value name="ADD2"><block type="screen_image_picker"><field name="img">img`
+c c c c c c c c c c c c c c c c c c c c 8 8 8 8 8 8 8 8 8 8 8 8 
+c c c c c c c c c c c c c c c c c c c c 8 b b b b b b b b b b 8 
+c c c c c c c c c c c c c c c c c c c c 8 b b b b b b b b b b 8 
+8 8 8 8 8 8 8 8 8 8 8 8 8 c c c c c c c 8 b b b b b b b b b b 8 
+8 a a a a a a a a a a a 8 c c c c c c c 8 b b b b b b b b b b 8 
+8 a a a a a a a a a a a 8 c c c c c c c 8 b b b b b b b b b b 8 
+8 a a a a a a a a a a a 8 c c c c c c c 8 b b b b b b b b b b 8 
+8 a a a a a a a a a a a 8 8 8 8 8 8 8 8 8 8 8 8 8 b b b b b b 8 
+8 a a a a a a a a a a a 8 8 b b b b b b 8 a a a 8 b b b b b b 8 
+8 a a a a a a a a a a a 8 8 b b b b b b 8 a a a 8 b b b b b b 8 
+8 a a a a a a a a a a a 8 8 b b b b b b 8 a a a 8 b b b b b b 8 
+8 8 8 8 8 8 8 8 8 8 8 8 8 8 b b b b b b 8 a a a 8 b b b b b b 8 
+c c c c c c c c c c c c c 8 b b b b b b 8 8 8 8 8 8 8 8 8 8 8 8 
+c c c c c c c c c c c c c 8 b b b b b b b b b b 8 c c c c c c c 
+c c c c c c c c c c c c c 8 b b b b b b b b b b 8 c c c c c c c 
+c c c c c c c c c c c c c 8 b b b b b b b b b b 8 c c c c c c c 
+c c c c c c c c c c c c c 8 8 8 8 8 8 8 8 8 8 8 8 c c c c c c c 
+c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c 
+c c c c c c c c c c c c c c c c c c 8 8 8 8 8 8 8 8 8 8 8 8 8 8 
+8 8 8 8 8 8 8 8 8 8 8 c c c c c c c 8 b b b b b b b b b b b b 8 
+8 a a a a a a a a a 8 c c c c c c c 8 b b b b b b b b b b b b 8 
+8 a a a a a a a a a 8 c c c c c c c 8 b b b b b b b b b b b b 8 
+8 a a a a a a a a a 8 c c c c c c c 8 b b b b b b b b b b b b 8 
+8 a a a a a a a a a 8 c c c c c c c 8 b b b b b b b b b b b b 8 
+8 a a a a a a a a a 8 c c c c c c c 8 b b b b b b b b b b b b 8 
+8 a a a a a a a a a 8 c c c c c c c 8 b b b b b b b b b b b b 8 
+8 a a a a a a a a a 8 c c c c c c c 8 b b b b b b b b b b b b 8 
+8 a a a a a a a a a 8 c c c c c c c 8 b b b b b b b b b b b b 8 
+8 8 8 8 8 8 8 8 8 8 8 c c c c c c c 8 8 8 8 8 8 8 8 8 8 8 8 8 8 
+c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c 
+c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c 
+c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c c 
+`</field></block></value><value name="ADD3"><block type="typescript_expression" editable="false"><field name="EXPRESSION">null</field></block></value><value name="ADD4"><block type="screen_image_picker"><field name="img">img`
+c d c d d d c c 
+d d b d d d d c 
+d b d d d d d b 
+b b b d c c d b 
+d b d b d d c c 
+d d b d b b b c 
+c d c b d d b c 
+c c b b c c c c 
+`</field></block></value><value name="ADD5"><block type="typescript_expression" editable="false"><field name="EXPRESSION">null</field></block></value><value name="ADD6"><block type="screen_image_picker"><field name="img">img`
+c d c d d d c c 
+d d b d d d d c 
+d b d d d d d b 
+b b b d c c d b 
+d b d b d d c c 
+d d b d b b b c 
+c d c b d d b c 
+c c b b c c c c 
+`</field></block></value><value name="ADD7"><block type="typescript_expression" editable="false"><field name="EXPRESSION">null</field></block></value><value name="ADD8"><block type="screen_image_picker"><field name="img">img`
+c d c d d d c c 
+d d b d d d d c 
+d b d d d d d b 
+b b b d c c d b 
+d b d b d d c c 
+d d b d b b b c 
+c d c b d d b c 
+c c b b c c c c 
+`</field></block></value><value name="ADD9"><block type="typescript_expression" editable="false"><field name="EXPRESSION">null</field></block></value><value name="ADD10"><block type="screen_image_picker"><field name="img">img`
+8 b a a a 8 b b b c c 8 c a 8 b 
+a a c 6 6 b 8 c c c f 8 c c a a 
+a c 6 c c 8 8 f c a f f f c c a 
+b 6 6 c c f f f c a a f f c c a 
+8 c c c f f f f c c a a c 8 c c 
+c c c b f f f 8 a c c a a a c c 
+c a a b b 8 a b c c c c c c c c 
+a f c a a b b a c c c c c f f c 
+a 8 f c a a c c a c a c f f f c 
+c a 8 a a c c c c a a f f f 8 a 
+8 a c a a c f f a a b 8 f f c a 
+a c c c b a f f f a b b c c 6 c 
+6 a c a b b a f f 6 6 a b 6 c a 
+c a c c c b b b 6 6 a c c c c a 
+b 6 a a a c a b b c c 6 c c 8 a 
+b b 6 a 8 c c c c c c a 6 a a a 
+`</field></block></value><value name="ADD11"><block type="screen_image_picker"><field name="img">img`
+8 b a a a 8 b b b c c 8 c a 8 b 
+a a c 6 6 b 8 c c c f 8 c c a a 
+a c 6 c c 8 8 f c a f f f c c a 
+b 6 6 c c f f f c a a f f c c a 
+8 c c c f f f f c c a a c 8 c c 
+c c c b f f f 8 a c c a a a c c 
+c a a b b 8 a b c c c c c c c c 
+a f c a a b b a c c c c c f f c 
+a 8 f c a a c c a c a c f f f c 
+c a 8 a a c c c c a a f f f 8 a 
+8 a c a a c f f a a b 8 f f c a 
+a c c c b a f f f a b b c c 6 c 
+6 a c a b b a f f 6 6 a b 6 c a 
+c a c c c b b b 6 6 a c c c c a 
+b 6 a a a c a b b c c 6 c c 8 a 
+b b 6 a 8 c c c c c c a 6 a a a 
+`</field></block></value><value name="ADD12"><block type="screen_image_picker"><field name="img">img`
+8 b a a a 8 b b b c c 8 c a 8 b 
+a a c 6 6 b 8 c c c f 8 c c a a 
+a c 6 c c 8 8 f c a f f f c c a 
+b 6 6 c c f f f c a a f f c c a 
+8 c c c f f f f c c a a c 8 c c 
+c c c b f f f 8 a c c a a a c c 
+c a a b b 8 a b c c c c c c c c 
+a f c a a b b a c c c c c f f c 
+a 8 f c a a c c a c a c f f f c 
+c a 8 a a c c c c a a f f f 8 a 
+8 a c a a c f f a a b 8 f f c a 
+a c c c b a f f f a b b c c 6 c 
+6 a c a b b a f f 6 6 a b 6 c a 
+c a c c c b b b 6 6 a c c c c a 
+b 6 a a a c a b b c c 6 c c 8 a 
+b b 6 a 8 c c c c c c a 6 a a a 
+`</field></block></value><value name="ADD13"><block type="screen_image_picker"><field name="img">img`
+8 b a a a 8 b b b c c 8 c a 8 b 
+a a c 6 6 b 8 c c c f 8 c c a a 
+a c 6 c c 8 8 f c a f f f c c a 
+b 6 6 c c f f f c a a f f c c a 
+8 c c c f f f f c c a a c 8 c c 
+c c c b f f f 8 a c c a a a c c 
+c a a b b 8 a b c c c c c c c c 
+a f c a a b b a c c c c c f f c 
+a 8 f c a a c c a c a c f f f c 
+c a 8 a a c c c c a a f f f 8 a 
+8 a c a a c f f a a b 8 f f c a 
+a c c c b a f f f a b b c c 6 c 
+6 a c a b b a f f 6 6 a b 6 c a 
+c a c c c b b b 6 6 a c c c c a 
+b 6 a a a c a b b c c 6 c c 8 a 
+b b 6 a 8 c c c c c c a 6 a a a 
+`</field></block></value></block></value><next><block type="typescript_statement" editable="false"><mutation xmlns="http://www.w3.org/1999/xhtml" line0="game.stats = true" numlines="1"></mutation><next><block type="variables_set"><field name="VAR" id="gA}{_+H]ZqTJZd@~rbOz">t0</field><value name="VALUE"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="lists_index_get"><value name="LIST"><block type="variables_get"><field name="VAR" id="g=m!GLzWP4P+9i::avwi">textures</field></block></value><value name="INDEX"><shadow type="math_number"><field name="NUM">0</field></shadow></value></block></value><next><block type="pxt_controls_for"><value name="VAR"><shadow type="variables_get_reporter"><field name="VAR" id="qY(PoDU^C[2_]WTrmof}">i</field></shadow></value><value name="TO"><shadow type="math_whole_number"><field name="NUM">0</field></shadow><block type="math_arithmetic"><field name="OP">MINUS</field><value name="A"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="lists_length"><value name="VALUE"><block type="variables_get"><field name="VAR" id="g=m!GLzWP4P+9i::avwi">textures</field></block></value></block></value><value name="B"><shadow type="math_number"><field name="NUM">1</field></shadow></value></block></value><statement name="DO"><block type="controls_if"><mutation else="1"/><value name="IF0"><shadow type="logic_boolean"><field name="BOOL">TRUE</field></shadow><block type="typescript_expression" editable="false"><field name="EXPRESSION">textures[i]</field></block></value><statement name="DO0"><block type="variables_set"><field name="VAR" id="gA}{_+H]ZqTJZd@~rbOz">t0</field><value name="VALUE"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="lists_index_get"><value name="LIST"><block type="variables_get"><field name="VAR" id="g=m!GLzWP4P+9i::avwi">textures</field></block></value><value name="INDEX"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="variables_get"><field name="VAR" id="qY(PoDU^C[2_]WTrmof}">i</field></block></value></block></value></block></statement><statement name="ELSE"><block type="lists_index_set"><value name="LIST"><block type="variables_get"><field name="VAR" id="g=m!GLzWP4P+9i::avwi">textures</field></block></value><value name="INDEX"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="variables_get"><field name="VAR" id="qY(PoDU^C[2_]WTrmof}">i</field></block></value><value name="VALUE"><block type="variables_get"><field name="VAR" id="gA}{_+H]ZqTJZd@~rbOz">t0</field></block></value></block></statement></block></statement><next><block type="variables_set"><field name="VAR" id="RoT@y~K$EdN5TNcn-vZ~">fpx</field><value name="VALUE"><shadow type="math_number"><field name="NUM">10</field></shadow></value><next><block type="variables_set"><field name="VAR" id="})pvp1AEr[,h1,WH.+Z8">fpx_scale</field><value name="VALUE"><shadow type="math_number"><field name="NUM">1024</field></shadow></value><next><block type="variables_set"><field name="VAR" id="98,$Ek.ntnhEg9=kp%nK">fov</field><value name="VALUE"><shadow type="math_number"><field name="NUM">0.66</field></shadow></value><next><block type="typescript_statement" editable="false"><mutation xmlns="http://www.w3.org/1999/xhtml" line0="function tofpx(n: number) {" line1="    return (n * fpx_scale) | 0" line2="}" numlines="3"></mutation><next><block type="typescript_statement" editable="false"><mutation xmlns="http://www.w3.org/1999/xhtml" line0="class State {" line1="    x: number" line2="    y: number" line3="    map: Image" line4="    dirX: number" line5="    dirY: number" line6="    planeX: number" line7="    planeY: number" line8="    angle: number" line9="" line10="    constructor() {" line11="        this.angle = 0" line12="        this.x = tofpx(18)" line13="        this.y = tofpx(7)" line14="" line15="        this.setVectors()" line16="        this.map = map.clone()" line17="    }" line18="" line19="    private setVectors() {" line20="        const sin = Math.sin(this.angle)" line21="        const cos = Math.cos(this.angle)" line22="        this.dirX = tofpx(cos)" line23="        this.dirY = tofpx(sin)" line24="        this.planeX = tofpx(sin * fov)" line25="        this.planeY = tofpx(cos * -fov)" line26="    }" line27="" line28="    private canGo(x: number, y: number) {" line29="        return this.map.getPixel(x &gt;&gt; fpx, y &gt;&gt; fpx) == 0" line30="    }" line31="" line32="    updateControls() {" line33="        const dx = controller.dx(2)" line34="        if (dx) {" line35="            this.angle -= dx" line36="            this.setVectors()" line37="        }" line38="        const dy = controller.dy(5)" line39="        if (dy) {" line40="            const nx = this.x - Math.round(this.dirX * dy)" line41="            const ny = this.y - Math.round(this.dirY * dy)" line42="            if (!this.canGo(nx, ny) &amp;&amp; this.canGo(this.x, this.y)) {" line43="                if (this.canGo(this.x, ny))" line44="                    this.y = ny" line45="                else if (this.canGo(nx, this.y))" line46="                    this.x = nx" line47="            } else {" line48="                this.x = nx" line49="                this.y = ny" line50="            }" line51="        }" line52="        //if (dx || dy)" line53="        //    console.log(`${this.x},${this.y},${this.angle}`)" line54="    }" line55="" line56="    trace() {" line57="        // based on https://lodev.org/cgtutor/raycasting.html" line58="        const w = screen.width" line59="        const h = screen.height" line60="        const one = 1 &lt;&lt; fpx" line61="        const one2 = 1 &lt;&lt; (fpx + fpx)" line62="        for (let x = 0; x &lt; w; x++) {" line63="            const cameraX: number = Math.idiv((x &lt;&lt; fpx) &lt;&lt; 1, w) - one" line64="            let rayDirX = this.dirX + (this.planeX * cameraX &gt;&gt; fpx)" line65="            let rayDirY = this.dirY + (this.planeY * cameraX &gt;&gt; fpx)" line66="" line67="            let mapX = this.x &gt;&gt; fpx" line68="            let mapY = this.y &gt;&gt; fpx" line69="" line70="            // length of ray from current position to next x or y-side" line71="            let sideDistX = 0, sideDistY = 0" line72="" line73="            // avoid division by zero" line74="            if (rayDirX == 0) rayDirX = 1" line75="            if (rayDirY == 0) rayDirY = 1" line76="" line77="            // length of ray from one x or y-side to next x or y-side" line78="            const deltaDistX = Math.abs(Math.idiv(one2, rayDirX));" line79="            const deltaDistY = Math.abs(Math.idiv(one2, rayDirY));" line80="" line81="            let mapStepX = 0, mapStepY = 0" line82="" line83="            let sideWallHit = false;" line84="" line85="            //calculate step and initial sideDist" line86="            if (rayDirX &lt; 0) {" line87="                mapStepX = -1;" line88="                sideDistX = ((this.x - (mapX &lt;&lt; fpx)) * deltaDistX) &gt;&gt; fpx;" line89="            } else {" line90="                mapStepX = 1;" line91="                sideDistX = (((mapX &lt;&lt; fpx) + one - this.x) * deltaDistX) &gt;&gt; fpx;" line92="            }" line93="            if (rayDirY &lt; 0) {" line94="                mapStepY = -1;" line95="                sideDistY = ((this.y - (mapY &lt;&lt; fpx)) * deltaDistY) &gt;&gt; fpx;" line96="            } else {" line97="                mapStepY = 1;" line98="                sideDistY = (((mapY &lt;&lt; fpx) + one - this.y) * deltaDistY) &gt;&gt; fpx;" line99="            }" line100="" line101="            let color = 0" line102="" line103="            while (true) {" line104="                //jump to next map square, OR in x-direction, OR in y-direction" line105="                if (sideDistX &lt; sideDistY) {" line106="                    sideDistX += deltaDistX;" line107="                    mapX += mapStepX;" line108="                    sideWallHit = false;" line109="                } else {" line110="                    sideDistY += deltaDistY;" line111="                    mapY += mapStepY;" line112="                    sideWallHit = true;" line113="                }" line114="" line115="                color = this.map.getPixel(mapX, mapY)" line116="                if (color)" line117="                    break; // hit!" line118="            }" line119="" line120="            let perpWallDist = 0" line121="            let wallX = 0" line122="            if (!sideWallHit) {" line123="                perpWallDist = Math.idiv(((mapX &lt;&lt; fpx) - this.x + (1 - mapStepX &lt;&lt; fpx - 1)) &lt;&lt; fpx, rayDirX)" line124="                wallX = this.y + (perpWallDist * rayDirY &gt;&gt; fpx);" line125="            } else {" line126="                perpWallDist = Math.idiv(((mapY &lt;&lt; fpx) - this.y + (1 - mapStepY &lt;&lt; fpx - 1)) &lt;&lt; fpx, rayDirY)" line127="                wallX = this.x + (perpWallDist * rayDirX &gt;&gt; fpx);" line128="            }" line129="            wallX &amp;= (1 &lt;&lt; fpx) - 1" line130="" line131="            color = (color - 1) * 2" line132="            if (sideWallHit) color++" line133="" line134="            const tex = textures[color]" line135="            if (!tex)" line136="                continue" line137="" line138="            // textures look much better when lineHeight is odd" line139="            let lineHeight = Math.idiv(h &lt;&lt; fpx, perpWallDist) | 1;" line140="            let drawStart = (-lineHeight + h) &gt;&gt; 1;" line141="" line142="            let texX = (wallX * tex.width) &gt;&gt; fpx;" line143="            if ((!sideWallHit &amp;&amp; rayDirX &gt; 0) || (sideWallHit &amp;&amp; rayDirY &lt; 0))" line144="                texX = tex.width - texX - 1;" line145="" line146="            screen.blitRow(x, drawStart, tex, texX, lineHeight)" line147="            /*" line148="                        const texStepY = Math.idiv(tex.height &lt;&lt; fpx, lineHeight)" line149="                        let texY = 0" line150="                        let i = 0" line151="                        if (drawStart &lt; 0) {" line152="                            i = -drawStart" line153="                            texY = i * texStepY" line154="                            lineHeight += drawStart + 1" line155="                        }" line156="                        for (; i &lt; lineHeight; ++i) {" line157="                            screen.setPixel(x, drawStart + i, tex.getPixel(texX, texY &gt;&gt; fpx))" line158="                            texY += texStepY" line159="                        }" line160="                        */" line161="" line162="        }" line163="    }" line164="}" numlines="165"></mutation><next><block type="typescript_statement" editable="false"><mutation xmlns="http://www.w3.org/1999/xhtml" line0="const st = new State()" numlines="1" declaredvars="st"></mutation><next><block type="typescript_statement" editable="false"><mutation xmlns="http://www.w3.org/1999/xhtml" line0="game.onPaint(function () {" line1="    st.trace()" line2="})" numlines="3"></mutation></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></statement></block><block type="gameupdate" x="370" y="30"><statement name="HANDLER"><block type="typescript_statement" editable="false"><mutation xmlns="http://www.w3.org/1999/xhtml" line0="st.updateControls()" numlines="1"></mutation></block></statement></block></xml>
